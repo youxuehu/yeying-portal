@@ -212,7 +212,7 @@ import { generateUuid, getCurrentUtcString } from '@/utils/common'
 import $application, { ApplicationMetadata } from '@/plugins/application'
 import { notifyError } from '@/utils/message'
 import { v4 as uuidv4 } from 'uuid';
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 const StatusInfo = {
     online: {

@@ -170,7 +170,7 @@ import { notifyError } from '@/utils/message'
 import $service, {codeMap, serviceCodeMap, ServiceMetadata } from '@/plugins/service'
 import { getCurrentUtcString } from '@/utils/common'
 import $minio  from "@/plugins/minio";
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 const defaultAvatar = import.meta.env.VITE_MINIO_AVATAR
 const protocol = import.meta.env.VITE_MINIO_HTTP_PROTOCOL

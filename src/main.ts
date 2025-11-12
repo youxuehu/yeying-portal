@@ -12,7 +12,7 @@ import ElementPlus from 'element-plus'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 import { notifyError, notifySuccess } from './utils/message'
 import { getWalletDataStore } from '@/stores/auth'
-import { waitForWallet } from './plugins/auth'
+import { waitForWallet } from '@yeying-community/yeying-web3'
 
 const app = createApp(App)
 

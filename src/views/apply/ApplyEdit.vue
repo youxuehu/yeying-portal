@@ -179,7 +179,7 @@ import { generateIdentity, userInfo } from '@/plugins/account'
 import { v4 as uuidv4 } from 'uuid';
 import { notifyError } from '@/utils/message'
 import $minio  from "@/plugins/minio";
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 const defaultAvatar = import.meta.env.VITE_MINIO_AVATAR
 const protocol = import.meta.env.VITE_MINIO_HTTP_PROTOCOL

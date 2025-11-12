@@ -70,8 +70,8 @@ import ServiceBlock from "@/views/components/ServiceBlock.vue";
 import { useRouter, useRoute, RouteLocationAsPathGeneric, RouteLocationAsRelativeGeneric } from 'vue-router'
 import { notifyError } from "@/utils/message";
 import { userInfo } from '@/plugins/account'
-import { getCurrentAccount } from "@/plugins/auth";
 import $audit, { AuditAuditDetail, AuditDetailBox, convertAuditMetadata } from "@/plugins/audit";
+import { getCurrentAccount } from "@yeying-community/yeying-web3";
 const searchVal = ref<string>("");
 const activeService = ref<string>("market");
 const serviceList = ref<ServiceMetadata[]>([])

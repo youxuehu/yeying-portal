@@ -23,7 +23,7 @@
 // import UserMenu from '@/components/common/UserMenu.vue'
 // import {useProfileStore} from '@/stores/index'
 // const profileStore = useProfileStore()
-import { connectWallet } from '@/plugins/auth';
+import { connectWallet } from '@yeying-community/yeying-web3';
 import { useRouter, useRoute } from 'vue-router'
 
 const router = useRouter();

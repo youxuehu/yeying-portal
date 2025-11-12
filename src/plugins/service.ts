@@ -1,8 +1,7 @@
 import { indexedCache } from './account'
-import { userInfo } from '@/plugins/account'
 import $audit from '@/plugins/audit'
-import { getCurrentAccount } from './auth'
 import { notifyError } from '@/utils/message'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 const token = localStorage.getItem("authToken")
 
 export const ApplyStatusMap = {

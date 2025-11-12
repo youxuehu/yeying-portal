@@ -64,10 +64,8 @@ import { SuccessFilled } from '@element-plus/icons-vue'
 import { notifyError } from '@/utils/message'
 import { v4 as uuidv4 } from 'uuid';
 import { generateUuid, getCurrentUtcString } from '@/utils/common'
-import { ElMessageBox } from 'element-plus'
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
-const mainMsg = ref<string>()
 const innerVisible = ref(false)
 const formRef = ref(null)
 const form = reactive({

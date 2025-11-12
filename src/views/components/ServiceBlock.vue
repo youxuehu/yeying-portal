@@ -219,8 +219,8 @@ import { exportIdentityInfo, userInfo } from '@/plugins/account'
 import $audit, { AuditAuditMetadata } from '@/plugins/audit'
 import $service from '@/plugins/service'
 import { generateUuid, getCurrentUtcString } from '@/utils/common'
-import { getCurrentAccount } from '@/plugins/auth'
 import { notifyError } from '@/utils/message'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 // 解绑服务
 const confirmUnbind = async () => {

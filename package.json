@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "rm -rf node_modules dist && npm install && npm run build && vite --host 0.0.0.0",
+    "dev": "rm -rf node_modules dist && npm install --legacy-peer-deps && npm run build && vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.js\""
@@ -16,7 +16,7 @@
     "@yeying-community/yeying-i18n": "^0.0.3",
     "@yeying-community/yeying-next": "^0.0.46",
     "@yeying-community/yeying-wallet": "^0.1.2",
-    "@yeying-community/yeying-web3": "^0.0.36",
+    "@yeying-community/yeying-web3": "file:../yeying-web3/yeying-community-yeying-web3-0.0.38.tgz",
     "dayjs": "^1.11.13",
     "element-plus": "^2.9.11",
     "minio": "^8.0.6",

@@ -111,7 +111,7 @@ import { userInfo } from '@/plugins/account'
 import $audit, { AuditAuditDetail, AuditCommentMetadata, AuditCommentStatusEnum, AuditDetailBox, convertAuditMetadata } from '@/plugins/audit'
 import { useDataStore } from '@/stores/audit'
 import { notifyError } from '@/utils/message'
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 const store = useDataStore()
 

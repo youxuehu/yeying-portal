@@ -45,7 +45,7 @@ import $service from '@/plugins/service'
 import { notifyError } from '@/utils/message';
 import { v4 as uuidv4 } from 'uuid';
 import { AuditDetailBox, useDataStore } from '@/stores/audit'
-import { getCurrentAccount } from '@/plugins/auth';
+import { getCurrentAccount } from '@yeying-community/yeying-web3';
 
 const store = useDataStore()
 const formRef = ref<InstanceType<typeof ElForm> | null>(null);

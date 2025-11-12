@@ -1,7 +1,6 @@
 import { IndexedCache } from '@yeying-community/yeying-next'
 import { $account } from '@yeying-community/yeying-wallet'
-import { createIdentity, Identity, IdentityApplicationExtend, IdentityCodeEnum, IdentityTemplate, NetworkTypeEnum, serializeIdentityToJson, verifyIdentity } from '@yeying-community/yeying-web3';
-import { getCurrentAccount } from './auth';
+import { createIdentity, getCurrentAccount, Identity, IdentityApplicationExtend, IdentityCodeEnum, IdentityTemplate, NetworkTypeEnum, serializeIdentityToJson, verifyIdentity } from '@yeying-community/yeying-web3';
 import { notifyError } from '@/utils/message';
 
 let indexedCache: IndexedCache = new IndexedCache('yeying-protal', 1)

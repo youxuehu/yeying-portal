@@ -56,7 +56,7 @@ import { userInfo } from '@/plugins/account'
 import $audit, { AuditAuditDetail, AuditAuditMetadata, convertAuditMetadata } from '@/plugins/audit'
 import { notifyError } from '@/utils/message'
 import { AuditDetailBox } from '@/stores/audit'
-import { getCurrentAccount } from '@/plugins/auth'
+import { getCurrentAccount } from '@yeying-community/yeying-web3'
 
 const searchVal = ref<string>('')
 const activeService = ref<string>('market')

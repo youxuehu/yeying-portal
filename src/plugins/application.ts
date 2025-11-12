@@ -1,9 +1,7 @@
 import { indexedCache } from './account'
 import { setLocalStorage, getLocalStorage } from '@/utils/common'
-import { createIdentity } from '@yeying-community/yeying-web3'
-import { userInfo } from '@/plugins/account'
+import { createIdentity, getCurrentAccount } from '@yeying-community/yeying-web3'
 import $audit from '@/plugins/audit'
-import { getCurrentAccount } from './auth'
 import { notifyError } from '@/utils/message'
 const token = localStorage.getItem("authToken")
 
